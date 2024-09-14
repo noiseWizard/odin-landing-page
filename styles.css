@@ -96,7 +96,7 @@ header a, .herosecondarytext {
 }
 
 figure {
-    border: solid darkgrey;
+    /* border: solid darkgrey; */
     margin: 0;
     padding: 0;
 }
@@ -108,6 +108,9 @@ figure {
     height: 100px;
 }
 
+.amazinginspiringquotecontainer {
+    background-color: #e5e7eb;
+}
 
 button, .callactioncontainer {
     background-color: #3882f6;
