@@ -80,6 +80,33 @@ header a, .herosecondarytext {
     color: #1f2937;
 }
 
+.randominformationcontainer {
+    text-align: center;
+}
+
+.informationheader {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.imagegroup {
+    display: flex;
+    gap: 10px;
+}
+
+figure {
+    border: solid darkgrey;
+    margin: 0;
+    padding: 0;
+}
+
+.imagegroup img {
+    border: solid #3882f6;
+    border-radius: 15%;
+    width: 100px;
+    height: 100px;
+}
 
 
 button, .callactioncontainer {
