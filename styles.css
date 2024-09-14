@@ -110,6 +110,20 @@ figure {
 
 .amazinginspiringquotecontainer {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteitself {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotesource {
+    margin-left: auto;
+    font-weight: 900;
 }
 
 button, .callactioncontainer {
