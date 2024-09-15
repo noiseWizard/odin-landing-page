@@ -3,19 +3,20 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body {
+/* body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 0;
     margin: 0;
     min-height: 100vh;
-}
+} */
 
-a {
+/* a {
 	text-decoration: none;
-}
+} */
 
-header,
+/* header,
 main,
 footer,
 .hero,
@@ -23,113 +24,113 @@ footer,
 .amazinginspiringquotecontainer, 
 .callactioncontainer {
     padding: 0 15%;
-}
+} */
 
-header, footer, .hero {
+/* header, footer, .hero {
     background-color: #1F2937;
-}
+} */
 
-header {
+/* header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     /* padding-top: 15px; */
     /* padding-bottom: 20px; */
-}
+/* } */
 
-.headerlogo {
+/* .headerlogo {
     font-size: 24px;
     color: #F9FAF8;
-}
+} */
 
-header ul {
+/* header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 20px;
- }
+ } */
 
-header a, .herosecondarytext {
+/* header a, .herosecondarytext {
     font-size: 18px;
     color: #e5e7eb;
-}
+} */
 
-.hero {
+/* .hero {
     display: flex;
     color: #e5e7eb;
     
-}
+} */
 
-.heroleft, .heroright {
+/* .heroleft, .heroright {
     flex-basis: 100%;
-}
+} */
 
-.heromaintext {
+/* .heromaintext {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-}
+} */
 
-.heroright {
+/* .heroright {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
 
     color: #1f2937;
-}
+} */
 
-.randominformationcontainer {
+/* .randominformationcontainer {
     text-align: center;
-}
+} */
 
-.informationheader {
+/* .informationheader {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-}
+} */
 
-.imagegroup {
+/* .imagegroup {
     display: flex;
     gap: 10px;
-}
+} */
 
-figure {
+/* figure { */
     /* border: solid darkgrey; */
-    margin: 0;
+    /* margin: 0;
     padding: 0;
-}
+} */
 
-.imagegroup img {
+/* .imagegroup img {
     border: solid #3882f6;
     border-radius: 15%;
     width: 100px;
     height: 100px;
-}
+} */
 
-.amazinginspiringquotecontainer {
+/* .amazinginspiringquotecontainer {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-}
+} */
 
-.quoteitself {
+/* .quoteitself {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
     font-weight: lighter;
-}
+} */
 
-.quotesource {
+/* .quotesource {
     margin-left: auto;
     font-weight: 900;
-}
+} */
 
-button, .callactioncontainer {
+/* button {
     background-color: #3882f6;
-}
+} */
 
-footer {
+/* footer {
     margin-top: auto;
-}
+} */
