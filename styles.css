@@ -5,14 +5,12 @@
     margin: 0;
 }
 
-/* body {
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0;
-    margin: 0;
     min-height: 100vh;
-} */
+}
 
 /* a {
 	text-decoration: none;
@@ -133,9 +131,9 @@ footer,
     background-color: #3882f6;
 } */
 
-/* footer {
+footer {
     margin-top: auto;
-} */
+}
 
 
 .herocontainer {
