@@ -138,14 +138,28 @@ footer,
     align-items: center;
 }
 
+.flexcontent {
+    width: 800px;
+}
 
-.herocontainer {
+.darkbackground {
     color: #f9faf8;
     background-color: #1f2937;
 }
 
-.flexcontent {
-    width: 800px;
+.heromaintext {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.herosecondarytext {
+    font-size: 18px;
+    columns: #e5e7eb;
+}
+
+.bluebackground {
+    background-color: #3882f6;
 }
 
 footer {
