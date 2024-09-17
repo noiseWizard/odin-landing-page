@@ -131,20 +131,23 @@ footer,
     background-color: #3882f6;
 } */
 
-footer {
-    margin-top: auto;
-}
-
-
-.herocontainer {
-    color: #f9faf8;
-    background-color: #1f2937;
+.flexcontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.herocontent {
-    width: 600px;
+
+.herocontainer {
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.flexcontent {
+    width: 800px;
+}
+
+footer {
+    margin-top: auto;
 }
