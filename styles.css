@@ -89,19 +89,6 @@ footer,
     gap: 10px;
 } */
 
-/* figure { */
-    /* border: solid darkgrey; */
-    /* margin: 0;
-    padding: 0;
-} */
-
-/* .imagegroup img {
-    border: solid #3882f6;
-    border-radius: 15%;
-    width: 100px;
-    height: 100px;
-} */
-
 /* .amazinginspiringquotecontainer {
     background-color: #e5e7eb;
     display: flex;
@@ -127,6 +114,10 @@ footer,
     align-items: center;
 }
 
+.flexcontent {
+    width: 700px;
+}
+
 .darkbackground {
     color: #f9faf8;
     background-color: #1f2937;
@@ -142,10 +133,6 @@ header a,
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
-}
-
-.flexcontent {
-    width: 800px;
 }
 
 .headerflex {
@@ -198,6 +185,52 @@ header ul {
     justify-content: center;
     align-items: center;
 }
+
+.randominfoflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informationheader {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.imagegroupflex {
+    display: flex;
+    gap: 30px;
+}
+
+.imagegroupflex img {
+    border: solid #3882f6;
+    border-radius: 10%;
+    /* width: 100px;
+    height: 100px; */
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    gap: 5px;
+}
+
+figure img {
+    flex-grow: 1;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+
+
 
 footer {
     margin-top: auto;
