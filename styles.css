@@ -229,6 +229,27 @@ figure img {
     aspect-ratio: 1/1;
 }
 
+.greybackground {
+    background-color: #e5e7eb;
+}
+
+.quoteflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotesource {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: auto;
+}
 
 
 
