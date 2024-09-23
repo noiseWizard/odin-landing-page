@@ -17,7 +17,7 @@ a {
 }
 
 button {
-    border-radius: 4%;
+    border-radius: 5px;
     border: none;
     padding: 5px 30px;
 }
@@ -107,11 +107,21 @@ footer,
     font-weight: 900;
 } */
 
-.flexcontainer {
+.flexcontainer_vert {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+
+.flexcontainer_horiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .flexcontent {
@@ -133,6 +143,14 @@ header a,
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
+    border-radius: 5px;
+
+}
+
+.bluebackground_callaction {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
 }
 
 .headerflex {
@@ -206,7 +224,7 @@ header ul {
 
 .imagegroupflex img {
     border: solid #3882f6;
-    border-radius: 10%;
+    border-radius: 10px;
     /* width: 100px;
     height: 100px; */
 }
@@ -251,7 +269,9 @@ figure img {
     margin-left: auto;
 }
 
-
+.bluebackground_callaction button {
+    border: solid white;
+}
 
 footer {
     margin-top: auto;
